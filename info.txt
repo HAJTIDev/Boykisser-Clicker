@@ -1,0 +1,21 @@
+{
+
+
+"Name": "Boykisser cookie",
+
+"ID": "imsuchasillyboykisser",
+
+"Author": "Cute Little Femboy",
+
+"Description": "It adds boykisser as a cookie",
+
+"ModVersion": 1.0,
+
+ "GameVersion": 2.048,
+
+"Date": "17/03/2024",
+"Disabled": 1,
+
+"AllowSteamAchievs": 1
+
+}
