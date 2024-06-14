@@ -45,6 +45,7 @@ Game.registerMod("imsuchasillyboykisser",{
 		Game.Loader.Replace('emetaGrandma.png',this.dir+'/grandma.png');
 		Game.Loader.Replace('cloneGrandma.png',this.dir+'/grandma.png');
 		Game.Loader.Replace('farm.png',this.dir+'/meow.png');
+		Game.Loader.Replace('mine.png',this.dir+'/blahaj.png');
 
 	},
 	save:function(){
