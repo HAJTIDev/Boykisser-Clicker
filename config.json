@@ -1,0 +1,37 @@
+{
+    "Steam": {
+        "ImagesPath" : "/images/"
+    },
+    "Web": {
+        "ImagesPath" : "https://kayofeld.github.io/Cookie-Clicker-mod/images/"
+    },
+    "Images": {
+        "buildings.png": "meow.png",
+        "perfectCookie.png": "boykissser.png",
+        "cursor.png": "cursorr.png",
+        "goldCookie.png": "kawaiiCookie.png",
+        "farm.png": "meow.png",
+        "mine.png": "blahaj.png",
+        "alteredGrandma.png": "grandma.png",
+        "alternateGrandma.png": "grandma.png",
+        "antiGrandma.png": "grandma.png",
+        "bankGrandma.png": "grandma.png",
+        "bunnyGrandma.png": "grandma.png",
+        "cloneGrandma.png": "grandma.png",
+        "cosmicGrandma.png": "grandma.png",
+        "elfGrandma.png": "grandma.png",
+        "emetaGrandma.png": "grandma.png",
+        "farmerGrandma.png": "grandma.png",
+        "grandma.png": "grandma.png",
+        "minerGrandma.png": "grandma.png",
+        "templeGrandma.png": "grandma.png",
+        "transmutedGrandma.png": "grandma.png",
+        "witchGrandma.png": "grandma.png",
+        "workerGrandma.png": "grandma.png"
+    }
+}
+
+
+
+
+
