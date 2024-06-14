@@ -2,7 +2,7 @@
 
 **Boykisser Clicker** is an add-on/mod you can load into Cookie Clicker, which adds a layer of boykisser in your **cookie cliker**
 
-## Using
+## Usage
 
 ### Steam
 
@@ -13,14 +13,14 @@ Link to the **[Steam Community Workshop](https://steamcommunity.com/sharedfiles/
 
 1. Install the Cookie Clicker Mod Manager. Instructions can be found on their **[Github Page](https://github.com/klattmose/CookieClickerModManager)**
 
-2. Register the mod using following link: ```https://kayofeld.github.io/Cookie-Clicker-mod/boykisser.js```
+2. Register the mod using following link: ```https://HAJTIDev.github.io/Boykisser-Clicker/boykisser.js```
 
 #### Bookmarklet
 Copy this code and save it as a bookmark. Paste it in the URL section. To activate, click the bookmark when the game's open.
 
 ```javascript
 javascript: (function () {
-  Game.LoadMod('https://kayofeld.github.io/Cookie-Clicker-mod/boykisser.js');
+  Game.LoadMod('https://HAJTIDev.github.io/Boykisser-Clicker/boykisser.js');
 })();
 ```
 
