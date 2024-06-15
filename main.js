@@ -7,6 +7,7 @@ Game.registerMod("imsuchasillyboykisser",{
 		this.updateScore();
 
 		let MOD=this;
+		
 
 		AddEvent(l('storeClicker'),'click',function(){
 			PlaySound('snd/pop'+Math.floor(Math.random()*3+1)+'.mp3',0.5);
@@ -22,31 +23,18 @@ Game.registerMod("imsuchasillyboykisser",{
 				MOD.updateScore();
 			}
 		});
-		Game.Loader.Replace('buildings.png',this.dir+'/meow.png');
-		Game.Loader.Replace('perfectCookie.png',this.dir+'/boykissser.png');
-		Game.Loader.Replace('cursor.png',this.dir+'/cursorr.png');
-		Game.Loader.Replace('goldCookie.png',this.dir+'/kawaiiCookie.png');
-		Game.Loader.Replace('grandma.png',this.dir+'/grandma.png');
-		Game.Loader.Replace('grandma2.png',this.dir+'/grandma.png');
-		Game.Loader.Replace('witchGrandma.png',this.dir+'/grandma.png');
-		Game.Loader.Replace('alternateGrandma.png',this.dir+'/grandma.png');
-		Game.Loader.Replace('antiGrandma.png',this.dir+'/grandma.png');
-		Game.Loader.Replace('transmutedGrandma.png',this.dir+'/grandma.png');
-		Game.Loader.Replace('templeGrandma.png',this.dir+'/grandma.png');
-		Game.Loader.Replace('workerGrandma.png',this.dir+'/grandma.png');
-		Game.Loader.Replace('minerGrandma.png',this.dir+'/grandma.png');
-		Game.Loader.Replace('bankGrandma.png',this.dir+'/grandma.png');
-		Game.Loader.Replace('bunnyGrandma.png',this.dir+'/grandma.png');
-		Game.Loader.Replace('cosmicGrandma.png',this.dir+'/grandma.png');
-		Game.Loader.Replace('farmerGrandma.png',this.dir+'/grandma.png');
-		Game.Loader.Replace('elfGrandma.png',this.dir+'/grandma.png');
-		Game.Loader.Replace('alteredGrandma.png',this.dir+'/grandma.png');
-		Game.Loader.Replace('cosmicGrandma.png',this.dir+'/grandma.png');
-		Game.Loader.Replace('emetaGrandma.png',this.dir+'/grandma.png');
-		Game.Loader.Replace('cloneGrandma.png',this.dir+'/grandma.png');
-		Game.Loader.Replace('farm.png',this.dir+'/meow.png');
-		Game.Loader.Replace('mine.png',this.dir+'/blahaj.png');
 
+		// define the image sources
+		// load config.json from file config.json
+		var boyKisserConfig = JSON.parse(this.dir+'./config.json');
+
+		var ImagesPath = this.dir + boyKisserConfig.Steam.ImagesPath;
+		var images = boyKisserConfig.Images;
+
+		// replace the images
+		for (var key in images) {
+			Game.Loader.Replace(key, ImagesPath + images[key]);
+		}
 	},
 	save:function(){
 
