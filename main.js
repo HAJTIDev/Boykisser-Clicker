@@ -22,7 +22,7 @@ Game.registerMod("imsuchasillyboykisser",{
 				MOD.updateScore();
 			}
 		});
-		Game.Loader.Replace('buildings.png',this.dir+'/meow.png');
+		Game.Loader.Replace('buildings.png',this.dir+'/buildingss.png');
 		Game.Loader.Replace('perfectCookie.png',this.dir+'/boykissser.png');
 		Game.Loader.Replace('cursor.png',this.dir+'/cursorr.png');
 		Game.Loader.Replace('goldCookie.png',this.dir+'/kawaiiCookie.png');
